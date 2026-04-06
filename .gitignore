@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+.hydra/
+outputs/
+*.hdf5
+*.pkl
+*.npy
+*.nii.gz
+*.ckpt
+*.log
+*.xlsx
+*.pdf
+HFtoken

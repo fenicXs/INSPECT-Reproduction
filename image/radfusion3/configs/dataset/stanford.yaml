@@ -1,0 +1,16 @@
+type: 2d
+csv_path: '/scratch/pkrish52/INSPECT/data/image_pipeline/Final_metadata.csv'
+split_path: '/scratch/pkrish52/INSPECT/data/image_pipeline/Final_splits.csv'
+metadata_path: '/scratch/pkrish52/INSPECT/data/image_pipeline/Final_metadata.csv'
+sample_frac: 1.0
+dicom_dir: /scratch/pkrish52/INSPECT/data/CTPA/inspectamultimodaldatasetforpulmonaryembolismdiagnosisandprog-3/full/CTPA/
+output_dir: /scratch/pkrish52/INSPECT/output/ct_features
+
+batch_size: 256
+weighted_sample: false
+
+transform:
+    channels: window
+    resize_size: 256
+    crop_size: 224
+    final_size: 224

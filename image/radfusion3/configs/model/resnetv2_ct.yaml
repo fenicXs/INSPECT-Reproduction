@@ -1,0 +1,5 @@
+type: model_2d
+model_name: resnetv2_101_ct
+pretrain_type: supervised
+num_class: 1
+checkpoint_path: /scratch/pkrish52/INSPECT/resnetv2_ct/resnetv2_ct.ckpt
